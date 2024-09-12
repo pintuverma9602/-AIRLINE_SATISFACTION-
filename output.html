@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Prediction is</title>
+    <!-- Add internal CSS to increase font size -->
+    <style>
+        body {
+            background: url('https://th.bing.com/th/id/OIP.qyGKa2yCyZ7H54PCU1c0RAHaEo?w=250&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif; /* Use a clean, modern font */
+        }
+        
+        .content {
+            font-size: 4 rem; /* Increase font size */
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h2 {
+            font-size: 5rem; /* Increase the size of the h2 element */
+            text-align: center;
+            margin-top: 15px;
+            color: rgb(9, 2, 22);
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 1.2rem; /* Increase the size of the back link */
+            color: #e1d7d7; /* Set a more visible color */
+            text-decoration: none; /* Remove underline */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Add underline on hover for better UX */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h2>Your passenger will be: {{ output }}</h2>
+        <a href="/">Back to Home</a>
+    </div>
+</body>
+</html>
